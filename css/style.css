@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #090b1a;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1115px;
+  margin-top: calc(50vh / 2);
+  background: #1b1938;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.card__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 70px;
+  padding: 70px;
+}
+
+.card__body__introducing-text__content {
+  opacity: .7;
+}
+
+.card__body__count {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card__img {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(170, 92, 219, 0.55))), url("../images/image-header-desktop.jpg");
+  background-image: linear-gradient(rgba(170, 92, 219, 0.55)), url("../images/image-header-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: -webkit-fill-available;
+}
+
+.card-count {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 10px;
+}
+
+.card-count h5 {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  opacity: .789;
+}
+
+strong {
+  color: #aa5cdb;
+}
+/*# sourceMappingURL=style.css.map */
